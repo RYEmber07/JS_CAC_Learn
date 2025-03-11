@@ -24,3 +24,5 @@ console.log(undefined < 0); // False
 // ===  (strict equality operator) for strict check
 // checks values as well as datatype 
 console.log("2" === 2);
+
+

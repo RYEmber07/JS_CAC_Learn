@@ -44,3 +44,27 @@ console.log(typeof heros);
 // array => object
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// Memory : Stack (for Primitive data types) , Heap(for -Primitve/Reference data types)
+
+let myFavouriteAnimal = 'Lion' 
+let myNewFavouriteAnimal = myFavouriteAnimal
+
+myFavouriteAnimal = 'Tiger'
+
+console.log(myFavouriteAnimal); //Tiger
+console.log(myNewFavouriteAnimal); //Lion 
+
+
+let user1 ={
+    email:"xyz@domain.com",
+    upiID:"user@ibl"
+}
+
+let user2 = user1
+user2.email = "abc@domain.com"
+
+console.log(user1);
+console.log(user2);
+
+
