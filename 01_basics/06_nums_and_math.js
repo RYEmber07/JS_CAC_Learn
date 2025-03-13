@@ -5,7 +5,7 @@ const balance = new Number(100)
 // console.log(balance)
 // wraps a object around
 
-// console.log(balance.toString().length);
+console.log(balance.toString().length);
 
 // console.log(balance.toFixed(1));
 // .toFixed(n) rounds off upto n decimal places
