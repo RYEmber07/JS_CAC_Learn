@@ -2,6 +2,7 @@
 // when we create a object using constructor (singletion object is not created by literals)
 
 // Object.create (constructor method)
+// objectName =  new Object()
 
 // object literals const JsUser = {}
 const mySym = Symbol("key1")
