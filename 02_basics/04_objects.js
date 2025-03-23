@@ -66,7 +66,7 @@ const users = [
 // Object.keys(objectName) gives array of a array of key and value
 // eg. [ ['id':'1234abcd'],['email':'xyz@domain.com'] ]
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+console.log(tinderUser.hasOwnProperty("isLoggedIn"));
 // does isLoggedIn property exist , returns bool
 
 // Use obj.hasOwnProperty("prop") when checking a property on a specific object instance. (instance method)
@@ -79,16 +79,29 @@ const course = {
 };
 
 // course.courseInstructor
-
+// Syntactic sugar refers to syntax in a programming language that makes code easier to read and write but doesn't add new functionality.
+// destrucutring (syntactic sugar)
 const {courseInstructor: instructor} = course;
+// {which value to get} = from where
+// or {which value to get:what you will call it} = from where
 
 // console.log(courseInstructor);
 console.log(instructor);
 
+// almost JSON strucutre (JavaScript Object Notation)
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
 
-[{}, {}, {}];
+[
+  {},
+  {},
+  {}
+];
+// we can also get api in this format
+// this is also JSON format
+
+// randomuser.me api (a popular api)
+// JSON Formatter (can simplify api for you)
