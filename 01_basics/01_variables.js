@@ -17,7 +17,8 @@ console.log(accountId);
 
 /*
 Prefer not to use var
-because of issue in block scope and functional scope , var does not understand scope
+because of issue in block scope and functional scope
+The main problem with using var in JavaScript is that it does not distinguish between function scope and block scope
 */
 
 console.log(accountId,accountEmail)
